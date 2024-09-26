@@ -12,7 +12,19 @@ class Router extends RouteSwitch
             case '':
                 $this->login();
                 break;
+
+            case 'meuUsuario':
+                $this->meuUsuario();
+                break;
             
+            case 'cadUsuario':
+                $this->cadUsuarios();
+                break;
+
+            case 'relacaoUsuarios':
+                $this->fetchUsuarios();
+                break;
+
             case 'cadEstudante':
                 $this->cadEstudante();
                 break;

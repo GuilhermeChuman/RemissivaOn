@@ -1,11 +1,5 @@
-.navbar{
-    background-color: #7575fc;
-}
-
-.nav-link{
-    color: white;
-}
-
-p{
-    font-size: 14px;
+.row{
+    display: flex;
+    flex-direction: row;
+    margin: 25px;
 }
