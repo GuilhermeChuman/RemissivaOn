@@ -1,0 +1,36 @@
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row{
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.row.header{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.row{
+    width: 100%;
+}
+
+.btn{
+    width: 100%;
+}
