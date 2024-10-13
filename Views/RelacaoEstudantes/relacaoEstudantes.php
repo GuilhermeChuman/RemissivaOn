@@ -5,8 +5,10 @@
     <button class="btn btn-outline-secondary" type="button" id="button-addon2" style="margin: 10px 10px 10px 0px;">Pesquisar</button>
 </div>
 
+<!-- Button trigger modal -->
 <div class="row">
-    <button type="button" class="btn btn-primary" style="max-width: 150px;">Cadastrar</button>
+    <button type="button" class="btn btn-primary" style="max-width: 150px;"
+            data-toggle="modal" data-target="#exampleModal">Cadastrar</button>
 </div>
 
 <div class= "row"> 
@@ -40,3 +42,8 @@
     </tbody>
     </table>
 </div>
+
+<!-- Modal -->
+<?php
+    include('../CadastroEstudantes/cadastroEstudantes.php');
+?>
